@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body{
+	background: url('../S31_20190711_WT_Ass1/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.main{
+	width: 400px;
+	margin: 100px auto 0px auto;
+
+}
+h2{
+	text-align: center;
+	padding: 20px;
+	font-family: Cursive;
+}
+div.reg{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.3); 
+	color: #fff; 
+}
+form#reg{
+	margin: 40px;
+
+}
+input#name{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+.container{
+	text-align: center;
+	margin-top: 15px;
+}
+.btn{
+	border:1px solid #f1c40f;
+	background: #fff;
+	padding: 15px 30px;
+	font-size: 20px;
+	font-family: Cursive;
+	margin: 10px;
+	transition: 1.0s;
+}
+.btn1, .btn2{
+	color: #e74c3c;
+	background: #ffff;
+	opacity: .8;
+}
+a:link{
+	color: #e74c3c;
+	text-decoration: none;
+}
+a:visited {
+  color: #e74c3c;
+  text-decoration: none;
+}
+a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}

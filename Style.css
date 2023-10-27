@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body{
+	background-color: PaleGoldenRod;
+	color: navy;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+	background-image: url('../S31_20190711_WT_Ass1/2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+nav{
+	background: 	#585858;
+	height: 40px;
+	width: 100%;
+	opacity: 0.7;
+}
+nav ul{
+	float: right;
+	position: relative;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 40px;
+	margin: 0 5px;
+	font-family: Cursive;
+}
+nav ul li a{
+	font-size: 15px;
+}
+h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 50px;
+	color: #ecf0f1;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: absolute;
+	top: 74%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 45px;
+	color: #ecf0f1;
+}
+.container{
+	text-align: center;
+	margin-top: 495px;
+}
+.btn{
+	border:1px solid #f1c40f;
+	background: none;
+	padding: 15px 30px;
+	font-size: 20px;
+	font-family: Cursive;
+	cursor: pointer;
+	margin: 10px;
+	transition: 1.0s;
+}
+.btn1, .btn2{
+	color: #e74c3c;
+	background: #ffff;
+	opacity: .8;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+  color: #e74c3c;
+  text-decoration: none;
+}
+a:hover {
+  color: #f1c40f;
+  text-decoration: none;
+}
+.btn1:hover, .btn2:hover{
+	
+	color: #f1c40f;
+}
+.btn::before{
+	content: "";
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #f1c40f;
+	z-index: -1;
+	transition: 1.0s;
+}
+.btn1::before,.btn2::before{
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+.btn1:hover::before, .btn2:hover::before{
+	height: 180%;
+}
